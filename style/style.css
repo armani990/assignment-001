@@ -13,6 +13,7 @@
     border-radius: 6px;
     font-weight: bold;
     color: white;
+    cursor:pointer;
 }
 
 nav{
@@ -137,4 +138,110 @@ ul{
 .speaker-info p{
     color:#777;
     font-size:15px;
+}
+
+
+
+/* Pricing Section */
+
+.pricing-section{
+    max-width:1200px;
+    margin:100px auto;
+    padding:0 20px;
+}
+
+.pricing-section h2{
+    text-align:center;
+    font-size:48px;
+    font-weight:700;
+}
+
+.pricing-subtitle{
+    text-align:center;
+    color:#777;
+    margin-top:12px;
+    margin-bottom:55px;
+}
+
+.pricing-container{
+    display:flex;
+    justify-content:center;
+    gap:30px;
+}
+
+.pricing-card{
+    flex:1;
+    border:1px solid #dcdcdc;
+    border-radius:10px;
+    padding:30px;
+    background:#fff;
+
+    display:flex;
+    flex-direction:column;
+}
+
+.pricing-card h5{
+    font-size:12px;
+    color:#777;
+    letter-spacing:1px;
+    margin-bottom:12px;
+}
+
+.pricing-card h3{
+    font-size:48px;
+    margin-bottom:5px;
+}
+
+.pricing-card span{
+    color:#777;
+    font-size:14px;
+}
+
+.pricing-card ul{
+    margin-top:30px;
+    margin-bottom:35px;
+    padding-left:20px;
+
+    display:flex;
+    flex-direction:column;
+    gap:12px;
+}
+
+.pricing-card li{
+    font-size:15px;
+    color:#444;
+}
+
+.btn-outline{
+    margin-top:auto;
+
+    width:100%;
+    padding:14px;
+
+    background:white;
+    border:1px solid #1d4ed8;
+    border-radius:6px;
+
+    color:#1d4ed8;
+    font-weight:600;
+    cursor:pointer;
+}
+
+/* Featured Card */
+
+.featured{
+    background:#111c2e;
+    color:white;
+    border:none;
+}
+
+.featured h5,
+.featured span,
+.featured li{
+    color:#d9d9d9;
+}
+
+.featured .btn-primary{
+    width:100%;
+    margin-top:auto;
 }
