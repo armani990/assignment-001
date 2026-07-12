@@ -314,6 +314,8 @@ ul{
 }
 
 
+/* Footer */
+
 footer{
 
     background:#0f1d2d;
@@ -328,7 +330,56 @@ footer{
 
     display:grid;
     grid-template-columns:1fr 1fr 1fr;
+
     align-items:center;
+
+}
+
+.footer-logo img{
+
+    width:170px;
+
+}
+
+.footer-center{
+
+    text-align:center;
+
+}
+
+.footer-center p{
+
+    color:#c9d1d9;
+    font-size:14px;
+
+}
+
+.footer-right{
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: flex-end;
+    gap: 15px;
+}
+
+.footer-links{
+
+    display:flex;
+    gap:20px;
+
+}
+
+.footer-links a{
+
+    color:#c9d1d9;
+    text-decoration:none;
+    font-size:14px;
+    transition:.3s;
+
+}
+
+.footer-links a:hover{
+
+    color:#ffffff;
 
 }
 
@@ -341,48 +392,13 @@ footer{
 
 .social-icons a{
 
-    color:#c5ced8;
+    color:#c9d1d9;
     font-size:18px;
-
-}
-
-.social-icons a:hover{
-
-    color:#ffffff;
-
-}
-
-.footer-center{
-
-    text-align:center;
-
-}
-
-.footer-center p{
-
-    color:#c5ced8;
-    font-size:14px;
-
-}
-
-.footer-right{
-
-    display:flex;
-    justify-content:flex-end;
-    gap:25px;
-
-}
-
-.footer-right a{
-
-    color:#c5ced8;
-    text-decoration:none;
-    font-size:14px;
     transition:.3s;
 
 }
 
-.footer-right a:hover{
+.social-icons a:hover{
 
     color:#ffffff;
 
